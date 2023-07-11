@@ -20,12 +20,12 @@ Desarrollo de la API
 En esta sección se describe el desarrollo de la API utilizando el framework FastAPI. Se implementan 6 funciones para los endpoints que serán consumidos a través de la API:
 
 ## Caracteristica de las funciones
-' peliculas_idioma(Idioma: str): 'Devuelve la cantidad de películas producidas en un idioma específico.
-** peliculas_duracion(Pelicula: str): ** Devuelve la duración y el año de una película específica.
-** franquicia(Franquicia: str): ** Devuelve la cantidad de películas, la ganancia total y el promedio de una franquicia específica.
-** peliculas_pais(Pais: str): ** Devuelve la cantidad de películas producidas en un país específico.
-** productoras_exitosas(Productora: str): ** Devuelve el revenue total y la cantidad de películas realizadas por una productora específica.
-** get_director(nombre_director): ** Devuelve el éxito de un director específico y una lista de películas dirigidas por él, incluyendo la fecha de lanzamiento, el retorno individual, el costo y la ganancia de cada película.
+- peliculas_idioma(Idioma: str): ** Devuelve la cantidad de películas producidas en un idioma específico.
+- peliculas_duracion(Pelicula: str): ** Devuelve la duración y el año de una película específica.
+- franquicia(Franquicia: str): ** Devuelve la cantidad de películas, la ganancia total y el promedio de una franquicia específica.
+- peliculas_pais(Pais: str): ** Devuelve la cantidad de películas producidas en un país específico.
+- roductoras_exitosas(Productora: str): ** Devuelve el revenue total y la cantidad de películas realizadas por una productora específica.
+- get_director(nombre_director): ** Devuelve el éxito de un director específico y una lista de películas dirigidas por él, incluyendo la fecha de lanzamiento, el retorno individual, el costo y la ganancia de cada película.
 Deployment
 
 ## Análisis Exploratorio de los Datos (EDA)
